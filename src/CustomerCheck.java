@@ -37,7 +37,9 @@ public class CustomerCheck
         if (totalPrices() < 40){
             return false;
         }
+        else {
         return true;
+    }
     }
 
     /** Calculates the final cost of this check, as described in part (c) */
